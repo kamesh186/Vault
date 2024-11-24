@@ -1,0 +1,24 @@
+2024-08-27T21:20:14.801+05:30  INFO 26236 --- [Vault] [main] com.app.Vault.VaultApplication           : Starting VaultApplication using Java 17.0.4 with PID 26236 (C:\Users\Kames\Downloads\Vault\Vault\target\classes started by Kames in C:\Users\Kames\Downloads\Vault\Vault)
+2024-08-27T21:20:14.806+05:30  INFO 26236 --- [Vault] [main] com.app.Vault.VaultApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-08-27T21:20:16.293+05:30  INFO 26236 --- [Vault] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-27T21:20:16.387+05:30  INFO 26236 --- [Vault] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2024-08-27T21:20:17.457+05:30  INFO 26236 --- [Vault] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-08-27T21:20:17.473+05:30  INFO 26236 --- [Vault] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-27T21:20:17.473+05:30  INFO 26236 --- [Vault] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-27T21:20:17.600+05:30  INFO 26236 --- [Vault] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-27T21:20:17.601+05:30  INFO 26236 --- [Vault] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2726 ms
+2024-08-27T21:20:18.025+05:30  INFO 26236 --- [Vault] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-27T21:20:18.110+05:30  INFO 26236 --- [Vault] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-27T21:20:18.172+05:30  INFO 26236 --- [Vault] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-27T21:20:18.682+05:30  INFO 26236 --- [Vault] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-27T21:20:19.253+05:30  WARN 26236 --- [Vault] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-27T21:20:19.255+05:30  WARN 26236 --- [Vault] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-27T21:20:20.616+05:30  INFO 26236 --- [Vault] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-27T21:20:20.751+05:30  INFO 26236 --- [Vault] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-27T21:20:21.204+05:30  WARN 26236 --- [Vault] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-27T21:20:21.440+05:30  INFO 26236 --- [Vault] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-27T21:20:21.997+05:30  INFO 26236 --- [Vault] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-27T21:20:22.685+05:30  INFO 26236 --- [Vault] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2024-08-27T21:20:22.708+05:30  INFO 26236 --- [Vault] [main] com.app.Vault.VaultApplication           : Started VaultApplication in 8.572 seconds (process running for 9.998)
+2024-08-27T21:23:59.202+05:30  INFO 26236 --- [Vault] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-27T21:23:59.472+05:30  INFO 26236 --- [Vault] [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
